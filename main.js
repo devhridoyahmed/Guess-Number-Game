@@ -66,12 +66,16 @@ function gameOn () {
         // putting msg on hints
         hints((number > secretNumber) ? "📈 too high ..." : "📉 too low ..." );
 
+        // setting neutral bg
+        bgColor("dimgray");
+
         score--;
         // decrement or score board
         if (score >= 1) {
             scoreBoard(score);
         } else {
             scoreBoard("You lost the game 💥");
+            bgColor("#550000");
         }
     }
 }

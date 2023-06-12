@@ -11,7 +11,7 @@ body {
     background-color: dimgray;
     font-family: 'Nova Mono', monospace;
     display: grid;
-    grid-template-rows: min-content min-content 1fr;
+    grid-template-rows: max-content min-content 1fr;
 }
 
 .btn {
@@ -43,6 +43,8 @@ body {
         font-size: 1.4rem;
         color: aqua;
         text-transform: capitalize;
+        margin-left: 1rem;
+        padding-right: 1rem;
     }
 }
 
