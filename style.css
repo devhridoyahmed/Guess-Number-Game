@@ -25,11 +25,11 @@ body {
     letter-spacing: 1px;
     transition: all .3s ease-out;
     align-self: center;
+}
 
-    &:hover {
-        background-color: black;
-        color: white;
-    }
+.btn:hover {
+	background-color: black;
+	color: white;
 }
 
 /* common code end here */
@@ -38,14 +38,14 @@ body {
     display: flex;
     justify-content: space-around;
     padding: 1rem;
+}
 
-    .topbox__heading {
-        font-size: 1.4rem;
-        color: aqua;
-        text-transform: capitalize;
-        margin-left: 1rem;
-        padding-right: 1rem;
-    }
+.topbox__heading {
+	font-size: 1.4rem;
+	color: aqua;
+	text-transform: capitalize;
+	margin-left: 1rem;
+	padding-right: 1rem;
 }
 
 .displayNumber {
@@ -57,17 +57,17 @@ body {
     text-align: center;
     position: relative;
     z-index: 5;
-    
-    .secretNumber {
-        width: 8rem;
-        height: 8rem;
-        background-color: azure;
-        font-size: 4rem;
-        padding: 1.3rem;
-        font-weight: 600;
-        
-        color: orangered;
-    }
+}
+
+.secretNumber {
+	width: 8rem;
+	height: 8rem;
+	background-color: azure;
+	font-size: 4rem;
+	padding: 1.3rem;
+	font-weight: 600;
+	
+	color: orangered;
 }
 
 .displayNumber::after {
@@ -84,32 +84,30 @@ body {
 .info {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+}
 
-    .formBox {
-        padding: 3rem;
+.formBox {
+	padding: 3rem;
+}
 
-        .number {
-            display: block;
-            height: 8rem;
-            width: 8rem;
-            margin: 1rem auto;
-            font-size: 4rem;
-            text-align: center;
-            background-color: azure;
-        }
+.number {
+	display: block;
+	height: 8rem;
+	width: 8rem;
+	margin: 1rem auto;
+	font-size: 4rem;
+	text-align: center;
+	background-color: azure;
+}
 
-        .guess {
-            margin: 1rem auto;
-                display: block;
-        }
-    }
-
-    .result {
-        padding: 2rem;
-
-        .para {
-            font-size: 1.8rem;
-            color: aqua;
-        }
-    }
+.guess {
+	margin: 1rem auto;
+	display: block;
+}
+.result {
+	padding: 2rem;
+}
+.para {
+	font-size: 1.8rem;
+	color: aqua;
 }
